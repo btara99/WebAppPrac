@@ -1,0 +1,157 @@
+p{
+    font-size: 1.2em;
+}
+body{
+    background-color: lightblue;
+    color: rgb(4,11,104);
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+    backgorund-repear:repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+h1{
+    color: #ff0000;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding:35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.box-1{
+    background-color: cornflowerblue;
+    border-style: ridge;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    border-left: 5px red solid;
+    border-right: 5px red solid;
+    padding: 40px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+
+}
+.myform{
+    background-color: aquamarine;
+    color: indianred;
+    padding: 50px;
+    margin: 10px;
+}
+.myform input[type="text"]{
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#input-button{
+    padding: 8px;
+    border:none;
+    background-color: darkgreen;
+    color: red;
+}
+.box-1 h4{
+    font-family: Courier New;
+    font-weight: 800;
+    color: chartreuse;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.box-2{
+    background-color: darkgreen;
+    border :5px rebeccapurple solid;
+    padding: 20px;
+    margin: 10px;
+}
+.page-container{
+    width: 80%;
+    margin: auto;
+}
+
+table, th, td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+
+    position: relative;
+}
+
+nav a {
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}

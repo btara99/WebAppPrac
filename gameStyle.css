@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+body{
+    background-image: url("https://thumbs.gfycat.com/AdoredWindingIberianbarbel-size_restricted.gif");
+
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("https://thumbs.gfycat.com/AdoredWindingIberianbarbel-size_restricted.gif");
+    color: white;
+    font-size: 30px;
+}
+
+.game{
+    width: 800px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    position: center;
+    padding-top: 300px;
+    background-image: url('https://i.pinimg.com/originals/68/9e/13/689e13b5a9e29749f6ae2cce530f7f3e.gif');
+    background-size: cover;
+}
+
+#character{
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position:relative;
+    top: 150px;
+}
+.animate{
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+    background-color: blue;
+    border:1px solid white;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 500px;
+    animation: block 2s infinite linear;
+}
+@keyframes block{
+    0%{left: 800px}
+    100%{left: -10px}
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria;
+    color: white;
+
+}
